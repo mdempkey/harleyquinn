@@ -5,6 +5,8 @@ width:100vw;
 margin:0;
 background-image:url("https://www.dccomics.com/sites/default/files/imce/2020/04-APR/DCComics_DCZoomBackgrounds_v1d_5ea38260602a64.02529454.jpg");
 cursor:url("https://img.icons8.com/ios-glyphs/48/000000/batman-new.png")10 10,auto;
+	background-repeat: no-repeat;
+background-size: cover;
 }
 
 .row1{
