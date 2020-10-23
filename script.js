@@ -12,6 +12,17 @@ var k = document.getElementById("j");
 var l = document.getElementById("harl");
 var q = 0
 
+function plyVid(){
+	document.getElementById('play').muted = false;
+	document.getElementById('play1').classList.add("none");
+}
+
+function Timer(){
+    document.getElementById('next').classList.remove("none"); 
+}
+
+setTimeout(Timer,9050);
+
 function movePic(){
 	h.src="images/winlogo1.png";
 	a.classList.remove("pulse");
@@ -75,4 +86,5 @@ function choosePic() {
      c.src = myPix4[randomNum];
 	  var randomNum = Math.floor(Math.random() * myPix5.length);
      f.src = myPix5[randomNum];
+Timer();
 }
