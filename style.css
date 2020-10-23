@@ -60,7 +60,14 @@ background-size: cover;
 max-width:70%; 
 }
 
-
+.center0{
+  max-height:50%;
+max-width:50%; 
+ padding: 0 5px 10px 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 .center1{
   max-height:100%;
 max-width:100%; 
